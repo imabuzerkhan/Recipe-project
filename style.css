@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 201, 135);
+}
+
+.main-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    max-width: 600px; /* changed width to max-width for responsiveness */
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.image {
+    width: 100%; /* adjusted width to ensure responsiveness */
+    border-radius: 10%;
+    object-fit: cover;
+    padding: 40px;
+}
+
+.card h1 {
+    font-size: 30px;
+    padding: 25px;
+    font-weight: bolder;
+    color: rgb(65, 64, 64);
+}
+
+.card p {
+    padding: 0px 25px 25px 25px;
+    font-size: 16px;
+    color: rgb(123, 123, 123);
+    font-weight: 500px;
+}
+
+.prepration {
+    width: 500px;
+    background-color: #fbe5e9;
+    padding: 25px;
+    margin-left: 29px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.prepration h3 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: rgb(238, 85, 85);
+}
+
+.prepration ul {
+    padding-left: 20px;
+}
+
+.prepration ul li {
+    font-size: 16px;
+    font-weight: 600px;
+    padding-left: 5px;
+    margin: 10px;
+}
+
+.ingredients {
+    padding: 10px 25px 15px 25px;
+    margin-left: 29px;
+    border-radius: 20px;
+}
+
+.ingredients h3 {
+    color: rgb(238, 85, 85);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ingredients ul {
+    padding: 10px 0 0 20px;
+}
+
+.ingredients ul li {
+    font-size: 16px;
+    font-weight: 600px;
+    padding-left: 5px;
+    margin: 10px;
+}
+
+.card hr {
+    width: 100%; /* changed width to 100% for responsiveness */
+    margin: 23px 0; /* adjusted margin for responsiveness */
+}
+
+.instructor {
+    padding: 10px 25px 15px 25px;
+    margin-left: 29px;
+    border-radius: 20px;
+}
+
+.instructor h3 {
+    color: rgb(238, 85, 85);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.instructor ol {
+    padding: 10px 0 0 20px;
+}
+
+.instructor ol li {
+    font-size: 13px;
+    font-weight: 600px;
+    padding-left: 9px;
+    margin: 10px;
+    line-height: 25px;
+}
+
+.nutritions {
+    padding: 10px 25px 20px 25px;
+    margin-left: 29px;
+}
+
+.nutritions h3 {
+    color: rgb(238, 85, 85);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nutritions p {
+    padding: 15px 25px 25px 2px;
+    font-size: 14px;
+    color: rgb(123, 123, 123);
+    font-weight: 500px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    color: rgb(123, 123, 123);
+    padding: 17px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.black {
+    color: rgb(238, 85, 85);
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+    .main-card {
+        width: 100%;
+    }
+
+    .card {
+        max-width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .prepration {
+        width: 90%; 
+    }
+}
