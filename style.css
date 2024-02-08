@@ -23,7 +23,7 @@ body {
 
 .image {
     width: 100%; /* adjusted width to ensure responsiveness */
-    border-radius: 10%;
+    border-radius: 58px;
     object-fit: cover;
     padding: 40px;
 }
